@@ -1,0 +1,9 @@
+.contenedor{
+    display: flex;
+    height: 80px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.473);
+    margin: 1rem;
+}

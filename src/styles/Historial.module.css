@@ -1,0 +1,73 @@
+
+.contenedor {
+    background-color: #e4e4e5;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.info {
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    line-height: 30px;
+
+}
+
+/* Contenedor boton */
+.conBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+}
+.btn { 
+    
+    background-color: #fe9125;
+    font-size: 16px;
+    width: 20%;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    
+}
+.btn:hover {
+cursor: pointer;
+}
+
+
+h2{
+    text-align: center;
+    color: #e4e4e5;
+}
+
+@media screen and (max-width: 767px){
+    .contenedor{
+        width: 100vw;
+        font-size: 0.7rem;
+        padding: 0rem;
+        margin: 0;
+    }
+    .info{
+        display: flex;
+       justify-content: center;
+        align-items: center;
+        width: 100%;
+        overflow-y: scroll;
+       scroll-behavior: auto;
+       justify-content: center;
+    }
+    .btnBorr{
+        
+        height: 1rem;
+    }
+    .btn{
+        width: 25%;
+    }
+}

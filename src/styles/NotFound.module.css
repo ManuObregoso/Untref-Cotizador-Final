@@ -1,0 +1,30 @@
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5rem;
+    }
+    .contenedor img{
+        width: 40vw;
+    }
+    .btn { 
+       
+        background-color: #fe9125;
+        font-size: 16px;
+        width: 100%;
+        padding: 15px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+}
+    .btn:hover {
+    cursor: pointer;
+    }
+
+
+    @media screen and (max-width: 767px){
+        .contenedor img{
+            width: 80vw;
+        }
+    }

@@ -1,0 +1,7 @@
+[
+    {"id":1,"type": "mascota","content": "Perros","precio": 200},
+    {"id":2,"type": "mascota","content": "Gatos","precio": 300},
+    {"id":3,"type": "paquete","content": "Basico","preciop": 100},
+    {"id":4,"type": "paquete","content": "Intermedio","preciop": 500},
+    {"id":5,"type": "paquete","content": "Completo","preciop": 600}
+]
